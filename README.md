@@ -1,41 +1,37 @@
 # 🖼️ Digital Image Processing with OpenCV
 
-## 🚀 Features
+## 📋 Implementations
 
-<table>
-<tr>
-<td width="50%">
+### Basic Image Processing
+1. **Thresholding Techniques**
+   - Different thresholding modes visualization
+   - Matplotlib integration for display
 
-### 🎨 Image Enhancement
-- **Thresholding Techniques**
-  - Multiple thresholding modes
-  - Matplotlib visualization
-- **Filtering Operations**
-  - Box Blur (Mean Filter)
-  - Gaussian Blur
-  - Median Filter
-  - Bilateral Blur
+2. **Image Filtering**
+   - Box Blur (Mean Filter)
+   - Gaussian Blur
+   - Median Filter
+   - Bilateral Blur
 
-</td>
-<td width="50%">
+### Morphological Operations
+3. **Basic Morphology**
+   - Erosion
+   - Dilation
 
-### 🔄 Transformations
-- **Morphological Operations**
-  - Erosion
-  - Dilation
-- **Frequency Domain**
-  - DFT & Inverse DFT
-  - DCT & Inverse DCT
+### Frequency Domain Processing
+4. **Fourier Transform**
+   - Discrete Fourier Transform (DFT)
+   - Inverse DFT
 
-</td>
-</tr>
-</table>
+5. **Cosine Transform**
+   - Discrete Cosine Transform (DCT)
+   - Inverse DCT
 
-### 🔍 Edge Detection
-- Laplacian Edge Detection
-- Comparative Analysis: Laplacian vs Sobel
+### Edge Detection
+6. **Edge Detection Techniques**
+   - Laplacian Edge Detection
+   - Comparative analysis of Laplacian and Sobel operators
 
----
 
 ## ⚙️ Prerequisites
 
@@ -92,55 +88,3 @@ digital-image-processing/
 └── 📂 thresholding/
     └── 📜 threshold_modes.py
 </pre>
-
-## 🎯 Available Implementations
-
-|
- Category 
-|
- Techniques 
-|
- Visualization 
-|
-|
-----------
-|
-------------
-|
----------------
-|
-|
- Thresholding 
-|
- Different Modes 
-|
- Matplotlib 
-|
-|
- Filtering 
-|
- Box, Gaussian, Median, Bilateral 
-|
- Matplotlib 
-|
-|
- Morphology 
-|
- Erosion, Dilation 
-|
- OpenCV Window 
-|
-|
- Frequency 
-|
- DFT, DCT 
-|
- Matplotlib 
-|
-|
- Edge Detection 
-|
- Laplacian, Sobel 
-|
- Comparison Plot 
-|
