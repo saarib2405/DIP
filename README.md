@@ -1,18 +1,4 @@
-README.md
-
 # 🖼️ Digital Image Processing with OpenCV
-[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org)
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-orange.svg)](https://matplotlib.org)
-
-<div align="center">
-  <img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black-2.png" width="200"/>
-  <br/>
-  <p><i>A comprehensive collection of image processing techniques implemented using OpenCV and Python</i></p>
-</div>
-
----
 
 ## 🚀 Features
 
