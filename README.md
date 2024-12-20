@@ -88,3 +88,12 @@ digital-image-processing/
 └── 📂 thresholding/
     └── 📜 threshold_modes.py
 </pre>
+
+## 📌 Features
+```txt
+- Interactive visualization using Matplotlib
+- Comprehensive implementation of various image processing techniques
+- Well-documented code with explanatory comments
+- Easy-to-use interface for each implementation
+- Comparative analysis tools for different techniques
+```
