@@ -1,110 +1,160 @@
-# Digital Image Processing with OpenCV
+README.md
 
-A collection of fundamental image processing implementations using OpenCV and Python. This repository contains various image processing techniques from basic filtering to frequency domain transformations.
+# 🖼️ Digital Image Processing with OpenCV
+[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-orange.svg)](https://matplotlib.org)
 
-## 📋 Implementations
+<div align="center">
+  <img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black-2.png" width="200"/>
+  <br/>
+  <p><i>A comprehensive collection of image processing techniques implemented using OpenCV and Python</i></p>
+</div>
 
-### Basic Image Processing
-1. *Thresholding Techniques*
-   - Different thresholding modes visualization
-   - Matplotlib integration for display
+---
 
-2. *Image Filtering*
-   - Box Blur (Mean Filter)
-   - Gaussian Blur
-   - Median Filter
-   - Bilateral Blur
+## 🚀 Features
 
-### Morphological Operations
-3. *Basic Morphology*
-   - Erosion
-   - Dilation
+<table>
+<tr>
+<td width="50%">
 
-### Frequency Domain Processing
-4. *Fourier Transform*
-   - Discrete Fourier Transform (DFT)
-   - Inverse DFT
+### 🎨 Image Enhancement
+- **Thresholding Techniques**
+  - Multiple thresholding modes
+  - Matplotlib visualization
+- **Filtering Operations**
+  - Box Blur (Mean Filter)
+  - Gaussian Blur
+  - Median Filter
+  - Bilateral Blur
 
-5. *Cosine Transform*
-   - Discrete Cosine Transform (DCT)
-   - Inverse DCT
+</td>
+<td width="50%">
 
-### Edge Detection
-6. *Edge Detection Techniques*
-   - Laplacian Edge Detection
-   - Comparative analysis of Laplacian and Sobel operators
+### 🔄 Transformations
+- **Morphological Operations**
+  - Erosion
+  - Dilation
+- **Frequency Domain**
+  - DFT & Inverse DFT
+  - DCT & Inverse DCT
 
-## 🔧 Prerequisites
+</td>
+</tr>
+</table>
 
-python >= 3.7
-opencv-python
-numpy
-matplotlib
+### 🔍 Edge Detection
+- Laplacian Edge Detection
+- Comparative Analysis: Laplacian vs Sobel
 
+---
 
-## 💻 Installation
+## ⚙️ Prerequisites
 
-bash
-# Clone the repository
+```txt
+🐍 Python >= 3.7
+📸 OpenCV-Python
+🔢 NumPy
+📊 Matplotlib
+```
+
+## 📦 Installation
+
+```bash
+# Clone this repository
 git clone https://github.com/saarib2405/Digital_Image_Processing_OpenCV.git
 
-# Navigate to project directory
+# Navigate to the project
 cd digital-image-processing
 
-# Install required packages
+# Install dependencies
 pip install -r requirements.txt
+```
 
+## 💻 Usage
 
-## 🚀 Usage
+Each technique is implemented in a separate script:
 
-Each implementation is contained in its own Python script. To run any specific implementation:
-
-bash
-python <script_name>.py
-
-
-Example:
-bash
+```python
+# Example: Running thresholding script
 python thresholding.py
 
+# Example: Running edge detection comparison
+python edge_detection_comparison.py
+```
 
 ## 📁 Project Structure
 
+<pre>
 digital-image-processing/
-│
-├── filtering/
-│   ├── box_blur.py
-│   ├── gaussian_blur.py
-│   ├── median_filter.py
-│   └── bilateral_blur.py
-│
-├── morphology/
-│   ├── erosion.py
-│   └── dilation.py
-│
-├── frequency_domain/
-│   ├── dft.py
-│   └── dct.py
-│
-├── edge_detection/
-│   ├── laplacian.py
-│   └── edge_detection_comparison.py
-│
-├── thresholding/
-│   └── threshold_modes.py
-│
-├── requirements.txt
-└── README.md
+├── 📂 filtering/
+│   ├── 📜 box_blur.py
+│   ├── 📜 gaussian_blur.py
+│   ├── 📜 median_filter.py
+│   └── 📜 bilateral_blur.py
+├── 📂 morphology/
+│   ├── 📜 erosion.py
+│   └── 📜 dilation.py
+├── 📂 frequency_domain/
+│   ├── 📜 dft.py
+│   └── 📜 dct.py
+├── 📂 edge_detection/
+│   ├── 📜 laplacian.py
+│   └── 📜 edge_detection_comparison.py
+└── 📂 thresholding/
+    └── 📜 threshold_modes.py
+</pre>
 
+## 🎯 Available Implementations
 
-## 📌 Features
-
-- Interactive visualization using Matplotlib
-- Comprehensive implementation of various image processing techniques
-- Well-documented code with explanatory comments
-- Easy-to-use interface for each implementation
-- Comparative analysis tools for different techniques
-
-## 🖼 Sample Results
-
-Results will be displayed using Matplotlib for better visualization and comparison.
+|
+ Category 
+|
+ Techniques 
+|
+ Visualization 
+|
+|
+----------
+|
+------------
+|
+---------------
+|
+|
+ Thresholding 
+|
+ Different Modes 
+|
+ Matplotlib 
+|
+|
+ Filtering 
+|
+ Box, Gaussian, Median, Bilateral 
+|
+ Matplotlib 
+|
+|
+ Morphology 
+|
+ Erosion, Dilation 
+|
+ OpenCV Window 
+|
+|
+ Frequency 
+|
+ DFT, DCT 
+|
+ Matplotlib 
+|
+|
+ Edge Detection 
+|
+ Laplacian, Sobel 
+|
+ Comparison Plot 
+|
